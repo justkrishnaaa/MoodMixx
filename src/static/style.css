@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff6b6b;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    color: #a3bffa;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+textarea.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    resize: none;
+}
+
+textarea.form-control::placeholder {
+    color: #a3bffa;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: #4ecdc4;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #45b7ad;
+    transform: scale(1.05);
+}
+
+.btn-success {
+    background: #ff9f43;
+    border: none;
+}
+
+.btn-success:hover {
+    background: #f08c33;
+    transform: scale(1.05);
+}
+
+.alert {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.alert-danger {
+    background: #e63946;
+    color: #fff;
+}
+
+.alert-success {
+    background: #2a9d8f;
+    color: #fff;
+}
+
+.list-group-item {
+    background: rgba(255, 255, 255, 0.1);
+    color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item a {
+    background: #ff6b6b;
+    color: #fff;
+}
+
+.list-group-item a:hover {
+    background: #e63946;
+    transform: scale(1.05);
+}
+
+.back-btn {
+    background: #a3bffa;
+    color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.back-btn:hover {
+    background: #8da9e6;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
+    }
+}
